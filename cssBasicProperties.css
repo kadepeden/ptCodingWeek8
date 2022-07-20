@@ -1,0 +1,13 @@
+#example {
+   color: gray;
+   background-color: aqua;
+   border-style: dotted;
+   border-width: 3px;
+   border-color: red;
+   border-radius: 5px;
+   height: 200px;
+   text-align: center;
+}
+/*these are common basic properties in CSS. The above are "key value pairs."
+/*the key on the left is the property we are defining
+/*the value of the property is on the right
