@@ -1,0 +1,74 @@
+/*homepage specific styling*/
+
+/*need to create a sperate id for the picture on the front page because its unique aspect ratio*/
+#home-page-picture {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 34%;
+        padding: 10px;
+        border-radius: 15px;
+}
+/*created seperate id because I needed custom width... for some reason*/
+#home-page-div {
+    background-color:cornflowerblue; 
+    border-style:solid; 
+    border-color: black;
+    border-radius:15px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 34.3%;
+    padding: 10px;
+}
+
+/*styling for all three webpages */
+body{
+    background-color:rgb(38, 113, 235);
+}
+
+h1 {
+    color:goldenrod;
+    text-align: center;
+    text-shadow: 1px 1px #040404;
+}
+
+/*tried to make a custom id that almost mirrored div on first page, but provided a smaller block element compared to larger divs on page 2 & 3*/
+#navigation-links {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 34%;
+    padding: 10px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+div {
+    background-color:cornflowerblue; 
+    border-style:solid; 
+    border-color: black;
+    border-radius:15px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 36%;
+    padding: 10px;
+
+}
+
+table {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+/*without this class, the list on page 2 gets pushed to the center because it is ruled by the cascade*/
+ul{
+   text-align: left; 
+}
+
+/*providing some roundness to all the imagied to match the border radius in other css properties*/
+img {
+    border-radius: 3%;
+  }
