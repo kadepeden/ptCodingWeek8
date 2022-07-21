@@ -1,5 +1,4 @@
 /*homepage specific styling*/
-
 /*need to create a sperate id for the picture on the front page because its unique aspect ratio*/
 #home-page-picture {
         display: block;
@@ -22,9 +21,15 @@
     padding: 10px;
 }
 
-/*styling for all three webpages */
+/*styling for all three webpages
+----------------------------------- */
 body{
     background-color:rgb(38, 113, 235);
+}
+
+/*leaving this here to learn more about classes vs. element styling*/
+.make-it-orange {
+    color: rgb(255, 55, 0);
 }
 
 h1 {
