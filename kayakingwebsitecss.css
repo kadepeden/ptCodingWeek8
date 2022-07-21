@@ -58,8 +58,13 @@ div {
     margin-left: auto;
     margin-right: auto;
     width: 36%;
-    padding: 10px;
+    padding: 20px;
 
+}
+
+.custom-padding-top-and-bottom{
+    padding-top: 1px;
+    padding-bottom: 1px;
 }
 
 table {
@@ -73,7 +78,15 @@ ul{
    text-align: left; 
 }
 
-/*providing some roundness to all the imagied to match the border radius in other css properties*/
+/*providing some roundness to all the images to match the border radius in other css properties*/
 img {
     border-radius: 3%;
+  }
+
+/*ask question about .clearfix class and why it isn't applying on page 3 to the image
+is there a way to just include this is the DIV element styling above so that it applies to all DIVs?*/
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
   }
