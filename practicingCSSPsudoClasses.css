@@ -1,17 +1,11 @@
-.hov {
-    height: 200px;
-    width: 200px;
-    background-color: blue;
+.hov li {
+    background-color: grey;
 }
 
-.hov:hover {
-    background-color: red;
+.hov:hover li {
+    background-color: white;
 }
 
-.every-even li:nth-child(even){
-    background-color: red;
-}
-
-.every-third li:nth-child(3n) {
-    background-color: red
+.every-even td:nth-child(even) {
+    background-color: grey
 }

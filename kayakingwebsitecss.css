@@ -1,4 +1,5 @@
 /*homepage specific styling*/
+
 /*need to create a sperate id for the picture on the front page because its unique aspect ratio*/
 #home-page-picture {
         display: block;
@@ -8,7 +9,17 @@
         padding: 10px;
         border-radius: 15px;
 }
+
+.clearfix {
+    overflow: auto;
+}
 /*created seperate id because I needed custom width... for some reason*/
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
 #home-page-div {
     background-color:cornflowerblue; 
     border-style:solid; 
@@ -25,11 +36,6 @@
 ----------------------------------- */
 body{
     background-color:rgb(38, 113, 235);
-}
-
-/*leaving this here to learn more about classes vs. element styling*/
-.make-it-orange {
-    color: rgb(255, 55, 0);
 }
 
 h1 {
@@ -81,12 +87,4 @@ ul{
 /*providing some roundness to all the images to match the border radius in other css properties*/
 img {
     border-radius: 3%;
-  }
-
-/*ask question about .clearfix class and why it isn't applying on page 3 to the image
-is there a way to just include this is the DIV element styling above so that it applies to all DIVs?*/
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
   }
