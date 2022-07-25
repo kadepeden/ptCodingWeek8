@@ -10,16 +10,7 @@
         border-radius: 15px;
 }
 
-.clearfix {
-    overflow: auto;
-}
 /*created seperate id because I needed custom width... for some reason*/
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-  
 #home-page-div {
     background-color:cornflowerblue; 
     border-style:solid; 
